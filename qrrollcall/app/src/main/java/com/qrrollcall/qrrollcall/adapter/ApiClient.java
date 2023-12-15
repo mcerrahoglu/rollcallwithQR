@@ -1,4 +1,4 @@
-package com.qrrollcall.qrrollcall;
+package com.qrrollcall.qrrollcall.adapter;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 

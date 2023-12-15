@@ -1,4 +1,4 @@
-package com.qrrollcall.qrrollcall;
+package com.qrrollcall.qrrollcall.model;
 
 import com.google.gson.annotations.SerializedName;
 

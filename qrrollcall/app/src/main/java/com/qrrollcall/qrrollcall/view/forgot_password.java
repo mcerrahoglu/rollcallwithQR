@@ -1,8 +1,10 @@
-package com.qrrollcall.qrrollcall;
+package com.qrrollcall.qrrollcall.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.qrrollcall.qrrollcall.R;
 
 public class forgot_password extends AppCompatActivity {
 

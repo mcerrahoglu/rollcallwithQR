@@ -1,4 +1,4 @@
-package com.qrrollcall.qrrollcall;
+package com.qrrollcall.qrrollcall.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.qrrollcall.qrrollcall.R;
+import com.qrrollcall.qrrollcall.adapter.ApiClient;
+import com.qrrollcall.qrrollcall.service.ApiService;
 import com.qrrollcall.qrrollcall.databinding.ActivityMainBinding;
 import com.qrrollcall.qrrollcall.model.Akademisyen;
 import com.qrrollcall.qrrollcall.model.atilAkademisyen;

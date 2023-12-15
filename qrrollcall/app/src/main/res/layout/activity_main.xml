@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".view.MainActivity">
 
     <EditText
         android:id="@+id/akid"
@@ -36,6 +36,7 @@
         android:layout_width="200dp"
         android:layout_height="47dp"
         android:layout_marginTop="25dp"
+        android:onClick="signInClicked"
         android:text="Giriş Yap"
         app:layout_constraintEnd_toEndOf="@+id/akpassword"
         app:layout_constraintHorizontal_bias="0.513"
@@ -62,4 +63,31 @@
         app:layout_constraintEnd_toEndOf="@+id/loginbutton"
         app:layout_constraintStart_toStartOf="@+id/loginbutton"
         app:layout_constraintTop_toBottomOf="@+id/loginbutton" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <Button
+        android:id="@+id/getDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgotbutton" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="144dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

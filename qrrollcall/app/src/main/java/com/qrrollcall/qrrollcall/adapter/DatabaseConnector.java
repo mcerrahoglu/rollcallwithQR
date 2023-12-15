@@ -1,4 +1,4 @@
-package com.qrrollcall.qrrollcall;
+package com.qrrollcall.qrrollcall.adapter;
 import android.os.AsyncTask;
 import android.os.AsyncTask;
 import java.sql.Connection;

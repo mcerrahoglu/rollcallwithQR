@@ -1,4 +1,4 @@
-package com.qrrollcall.qrrollcall;
+package com.qrrollcall.qrrollcall.service;
 import com.qrrollcall.qrrollcall.model.Akademisyen;
 
 import retrofit2.Call;
